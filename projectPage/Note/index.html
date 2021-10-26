@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note | یادداشت</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Assets/Img/noteicon1.jfif" type="image/x-i" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="OrginalDiv-Center">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-lg-2 p-0 MenuBackground">
+                    <div class="MenuUserDiv">
+                        <img src="Assets/Img/profile.jpg" alt="" class="MenuUserImg">
+                        <div class="MenuUserName" id="userNameMenu">User Name</div>
+                    </div>
+
+                    <ul class="MenuOrgItems">
+                        <button class="MenuItems-Btn">
+                            <img src="Assets/Img/note-2-16.png" alt="" class="MenuItemsIcon">
+                            <li class="MenuItems">یادداشت</li>
+                        </button>
+
+                        <button class="MenuItems-Btn">
+                            <img src="Assets/Img/document-2-16.png" alt="" class="MenuItemsIcon">
+                            <li class="MenuItems">تکالیف</li>
+                        </button>
+
+                        <button class="MenuItems-Btn">
+                            <img src="Assets/Img/checkmark-16.png" alt="" class="MenuItemsIcon">
+                            <li class="MenuItems">انجام شده</li>
+                        </button>
+
+                        <button class="MenuItems-Btn">
+                            <img src="Assets/Img/plus-8-16.png" alt="" class="MenuItemsIcon">
+                            <li class="MenuItems">اضافه کردن</li>
+                        </button>
+                    </ul>
+
+                    <hr class="hrDiv">
+
+                    <ul class="MenuOrgItemPersolan">
+                        <button class="MenuPersonal-btn">
+                            <li class="MenuPersonalItems markerOne">پروژه</li>
+                        </button>
+                        <button class="MenuPersonal-btn">
+                            <li class="MenuPersonalItems markerTow">کسب و کار</li>
+                        </button>
+                        <button class="MenuPersonal-btn">
+                            <li class="MenuPersonalItems markerThree">شخصی</li>
+                        </button>
+                    </ul>
+
+                    <hr class="hrDiv">
+
+                    <div class="MassageBox mt-5">
+                        <ul class="MassageBoxOrgItem">
+                            <a href="">
+                                <li class="MassageBoxItem"><img src="Assets/Img/telegram-16.png" alt=""></li>
+                            </a>
+                            <a href="">
+                                <li class="MassageBoxItem"><img src="Assets/Img/whatsapp-16.png" alt=""></li>
+                            </a>
+                            <a href="">
+                                <li class="MassageBoxItem"><img src="Assets/Img/instagram-16.png" alt=""></li>
+                            </a>
+                        </ul>
+                        <p class="copyRight">.کلیه حقوق این سایت محفوظ می‌باشد. v 1.1.8 - 1400 ©</p>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-10 col-12 pageBackground p-0 ">
+                    <!-- <div class="fixedDiv">
+                        <p>Desined By Nima Tjk</p>
+                    </div> -->
+
+                    <div class="pageHeader">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="pageItem1">
+                                    <input type="text" class="inputSearch" placeholder="جست و جو کنید...">
+                                    <!-- <button class="searchBtn"><img src="Assets/Img/icons8-search-32.png" alt="" class="searchImg"></button> -->
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="pageItem2">
+                                    <img src="Assets/Img/profile.jpg" alt="" class="pageUserImg">
+                                    <!-- <input type="file"> -->
+                                    <p class="pageUserName" id="UserNamePage">User Name!</p>
+                                    <button><img src="Assets/Img/notification.png" alt=""
+                                            class="notifactionIcon"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="addDiv">
+                                <button class="addNote" id="myBtn"><i class="fa fa-plus-circle" aria-hidden="true"
+                                        aria-colspan=""></i> اضافه کردن یادداشت</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="clickItemDiv">
+                                <button class="clickItem activeItemClick" id="allNote">تمامی نوشته ها</button>
+                                <button class="clickItem" id="projeNote">پروژه</button>
+                                <button class="clickItem" id="privetNote">شخصی</button>
+                                <button class="clickItem" id="jobNote">کسب و کار</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="notRegisteredNote">
+                        <div class="col-lg-12">
+                            <h6 class="notRegisteredNote">یادداشتی ثبت نشده !</h6>
+                        </div>
+                    </div>
+                    <div class="row mt-5" id="noteDisplayOther">
+                        <div class="col-lg-4 addDisplay" id="removNote1">
+                            <div class="cardDiv">
+                                <button type="button" id="recycleaBtn1"><img src="Assets/Img/icons8-recycle-bin-64.png"
+                                        alt="" class="recycleaimg"></button>
+                                <p id="dateParagraf"></p>
+                                <h3 id="RecordTitle1"></h3>
+                                <p id="recordParagraf1"></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 addDisplay" id="removNote2">
+                            <div class="cardDiv">
+                                <button type="button" id="recycleaBtn2"><img src="Assets/Img/icons8-recycle-bin-64.png"
+                                        alt="" class="recycleaimg"></button>
+                                <p id="dateParagraf"></p>
+                                <h3 id="RecordTitle2"></h3>
+                                <p id="recordParagraf2"></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 addDisplay" id="removNote3">
+                            <div class="cardDiv">
+                                <button type="button" id="recycleaBtn3"><img src="Assets/Img/icons8-recycle-bin-64.png"
+                                        alt="" class="recycleaimg"></button>
+                                <p id="dateParagraf"></p>
+                                <h3 id="RecordTitle3"></h3>
+                                <p id="recordParagraf3"></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 addDisplay" id="removNote4">
+                            <div class="cardDiv">
+                                <button type="button" id="recycleaBtn4"><img src="Assets/Img/icons8-recycle-bin-64.png"
+                                        alt="" class="recycleaimg"></button>
+                                <p id="dateParagraf"></p>
+                                <h3 id="RecordTitle4"></h3>
+                                <p id="recordParagraf4"></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 addDisplay" id="removNote5">
+                            <div class="cardDiv">
+                                <button type="button" id="recycleaBtn5"><img src="Assets/Img/icons8-recycle-bin-64.png"
+                                        alt="" class="recycleaimg"></button>
+                                <p id="dateParagraf"></p>
+                                <h3 id="RecordTitle5"></h3>
+                                <p id="recordParagraf5"></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 addDisplay" id="removNote6">
+                            <div class="cardDiv">
+                                <button type="button" id="recycleaBtn6"><img src="Assets/Img/icons8-recycle-bin-64.png"
+                                        alt="" class="recycleaimg"></button>
+                                <p id="dateParagraf"></p>
+                                <h3 id="RecordTitle6"></h3>
+                                <p id="recordParagraf6"></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 addDisplay" id="removNote7">
+                            <div class="cardDiv">
+                                <button type="button" id="recycleaBtn7"><img src="Assets/Img/icons8-recycle-bin-64.png"
+                                        alt="" class="recycleaimg"></button>
+                                <p id="dateParagraf"></p>
+                                <h3 id="RecordTitle7"></h3>
+                                <p id="recordParagraf7"></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 addDisplay" id="removNote8">
+                            <div class="cardDiv">
+                                <button type="button" id="recycleaBtn8"><img src="Assets/Img/icons8-recycle-bin-64.png"
+                                        alt="" class="recycleaimg"></button>
+                                <p id="dateParagraf"></p>
+                                <h3 id="RecordTitle8"></h3>
+                                <p id="recordParagraf8"></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 addDisplay" id="removNote9">
+                            <div class="cardDiv">
+                                <button type="button" id="recycleaBtn9"><img src="Assets/Img/icons8-recycle-bin-64.png"
+                                        alt="" class="recycleaimg"></button>
+                                <p id="dateParagraf"></p>
+                                <h3 id="RecordTitle9"></h3>
+                                <p id="recordParagraf9"></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div id="myModal" class="modal">
+                                <div class="modal-content">
+                                    <span class="close">&times;</span>
+                                    <form class="modalFormAlign">
+                                        <label for="fname">تیتر :</label>
+                                        <br>
+                                        <input type="text" id="titlev" name="fname" value="" class="modalFormInput modalFormInput1">
+                                        <br><br>
+                                        <label for="lname">یادداشت :</label>
+                                        <br>
+                                        <input type="text" id="noteval" name="lname" value="" class="modalFormInput modalFormInput2"><br><br>
+                                        <input type="submit" value="ثبت" class="modalFormSubmit" id="addNoteBtn">
+                                      </form> 
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

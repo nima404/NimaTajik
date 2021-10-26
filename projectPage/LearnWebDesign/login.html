@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body style="background: url(../LearnWebDesign/Assets/Image/georgie-cobbs-bKjHgo_Lbpo-unsplash\ \(1\).jpg); background-repeat: no-repeat; background-size: cover;">
+     <!-- Login Form -->
+     <div class="container tog-btn">
+        <div class="row">
+            <div class="col-12 col-lg-12">
+            <div class="login-form-2">
+                <div id="Timer"></div>
+                <h1>ثبت نام</h1>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="naminput" id="name-input" placeholder="نام"/>
+                        <input type="text" class="naminput" id="lname-input" placeholder="نام خانوداگی" value=""/>
+                  </div>
+
+                  <div class="form-group">
+                    <input type="text" class="forminput" placeholder="ایمیل" value="" />
+                </div>
+
+                    <div class="form-group">
+                        <input type="password" class="passinput" placeholder="رمز" id="passinpt"/>
+                        <input type="password" class="passinput" placeholder="تکرار رمز" id="passreap" />
+                    </div>
+                    <div class="secOrg">
+                    <div id="securityCode"></div>
+                    <input type="text" placeholder="کد امنیتی را وارد کنید" class="secInput" id="secval">
+                </div>
+                    <div class="form-group">
+                        <button type="submit" class="frombtn" id="acsept-profile" onclick="logerBtn()">ثبت نام</button>
+                    </div>
+                        <p id="nameWrong" class="wrongs"></p>
+                        <p id="lnameWrong" class="wrongs"></p>
+                        <p id="passWrong" class="wrongs"></p>
+                        <p id="repeatPassWrong" class="wrongs"></p>
+                        <p id="secWrong" class="wrongs"></p>
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- End Login Form -->
+    <script src="Assets/js/log.js"></script>
+</body>
+</html>
+<!-- <div class="col-lg-6 login-form-1 col-12">
+    <h3>ورود</h3>
+    <form>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="ایمیل" value="" />
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" placeholder="رمز" value="" />
+        </div>
+        <div class="form-group">
+            <input type="submit" class="btnSubmit" value="ورود" />
+        </div>
+    </form>
+</div> -->

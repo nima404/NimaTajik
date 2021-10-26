@@ -1,0 +1,165 @@
+body{
+    font-family: IRANSans !important;
+}
+/* Navbar */
+.logo-img{
+    height: 70px;
+    width: 12%;
+    margin: 0 20px;
+}
+.navbar {
+    padding: 5px;
+}
+.navbar-light{
+    opacity: .9;
+}
+.navbar ul li {
+    list-style: none;
+    text-align: right;
+}
+.nav-link{
+    color: blue !important;
+}
+.nav-link:hover{
+    color: blue !important;
+    border-bottom: 1px solid blue;
+}
+.nav-item{
+    text-align: right;
+    padding: 0 10px;
+    color: #000 !important;
+}
+
+nav .log-btn{
+    margin: 0 100px;
+    border: 0.5px solid #737373;
+    border-radius: 3px;
+}
+.phone-dis{
+    display: none;
+}
+.web-dis{
+    border: none;
+    background-color: blue !important;
+    color: white !important;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;    
+    margin: 0 20px;
+}
+.web-dis:hover{
+    background-color: rgb(0, 60, 255)!important;
+    color: white !important;
+    transition: .7s all;
+}
+.phone-dis{
+    border: 1px solid rgb(0, 128, 248) !important;
+    background-color: white !important;
+    color: rgb(0, 128, 248) !important;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.phone-dis:hover{
+    background-color: rgb(0, 128, 248)!important;
+    color: white !important;
+    transition: .7s all;
+}
+/* End Navbar */
+
+/* body */
+.paragraf-text{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+/* end body */
+
+/* Footer */
+.footer-bchgrnd{
+    background-color: rgb(228, 228, 228);
+}
+footer p{
+    text-align: justify;
+}
+footer {
+    padding: 30px;
+    text-align: right;
+}
+
+footer h2 {
+    font-size: 20px;
+    color: rgb(66, 66, 66);
+    padding-bottom: 18px;
+    margin: 0;
+}
+
+footer img {
+    width: 100%;
+}
+
+footer p {
+    color: #737373;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 0;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    list-style: none;
+    color: #737373;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+footer ul li a{
+    color: #737373;
+    text-decoration: none;
+}
+
+footer .copy-right ul li i{
+    background-color: #737373;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 50%;
+}
+footer .copy-right ul li{
+    margin: 0 5px;
+}
+.hr-color{
+    color: #737373;
+}
+.fa-facebook:hover{
+    background-color: rgb(66, 66, 255);
+}
+.fa-twitter:hover{
+    background-color: rgb(66, 195, 255);
+}
+.fa-dribbble:hover{
+    background-color: orange;
+}
+.fa-linkedin:hover{
+    background-color: rgb(38, 114, 255);
+}
+.nimatjk{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+.design-hr{
+    border-top: 1px dashed darkgray;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+footer .copy-right ul{
+    display: flex;
+    justify-content: center;
+}
+/* End Footer */

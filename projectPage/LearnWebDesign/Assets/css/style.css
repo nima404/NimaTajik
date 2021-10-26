@@ -1,0 +1,842 @@
+body{
+    font-family: IRANSans !important;
+}
+/* Navbar */
+.logo-img{
+    height: 70px;
+    width: 12%;
+    margin: 0 20px;
+}
+/* nav{
+    box-shadow: 10px 5px 10px #ececec;
+} */
+.navbar {
+    padding: 5px;
+}
+.navbar-light{
+    opacity: .9;
+}
+.navbar ul li {
+    list-style: none;
+    text-align: right;
+}
+.nav-link{
+    color: blue !important;
+}
+.nav-link:hover{
+    color: blue !important;
+    border-bottom: 1px solid blue;
+}
+.nav-item{
+    text-align: right;
+    padding: 0 10px;
+    color: #000 !important;
+}
+
+nav .log-btn{
+    margin: 0 100px;
+    border: 0.5px solid #737373;
+    border-radius: 3px;
+}
+.phone-dis{
+    display: none;
+}
+.web-dis{
+    border: none;
+    background-color: blue !important;
+    color: white !important;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 15px;    
+    margin: 0 20px;
+}
+.web-dis:hover{
+    background-color: rgb(0, 60, 255)!important;
+    color: white !important;
+    transition: .7s all;
+}
+.phone-dis{
+    border: 1px solid rgb(0, 128, 248) !important;
+    background-color: white !important;
+    color: rgb(0, 128, 248) !important;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.phone-dis:hover{
+    background-color: rgb(0, 128, 248)!important;
+    color: white !important;
+    transition: .7s all;
+}
+/* End Navbar */
+
+/* Card 1 */
+.why-us-h2 {
+    text-align: center;
+        font-size:30px; 
+        font-weight:300;
+        letter-spacing:1px;
+        text-transform: uppercase;
+        display: grid;
+        grid-template-columns: 1fr max-content 1fr;
+        grid-template-rows: 27px 0;
+        grid-gap: 20px;
+        align-items: center;
+        color: #4ecccc;
+    }
+    
+    .why-us-h2:after,.why-us-h2:before {
+        content: " ";
+        display: block;
+        border-bottom: 1px solid #4ecccc;
+        border-top: 1px solid #4ecccc;
+        height: 5px;
+    }
+    .hrclass{
+        border: 1px dashed;
+        /* margin-top: 100px; */
+        color: black;
+        width: 85%;
+        margin: 100px 20px 0 0;
+    }
+    
+    .card-org{
+        border: none;
+        color: black;
+        box-shadow: 1px 1px 6px 0px #d8d8d8, 0px 0px 20px 0px #ffffff;
+        margin-bottom: 15px;
+    }
+    .card-org h4{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .card-org p{
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+/* End Card 1 */
+
+/* Login */
+.login-form-1{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+.login-form-1 h3{
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+.login-form-2{
+    width: 65%;
+    margin: 0 auto;
+    padding: 5%;
+    background: white;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-form-1 .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+}
+.login-form-2 .btnSubmit{
+    font-weight: 600;
+    color: #0062cc;
+    background-color: #fff;
+}
+.login-form-2 h1{
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+.forminput{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 50%;
+    border: none;
+    background: none;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    height: 40px;
+    color: black;
+}
+.forminput:focus{
+    outline: none;
+}
+.forminput::placeholder{
+    color: gray;
+    font-size: 16px;
+}
+.form-group{
+    text-align: center;
+}
+.frombtn{
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    width: 30%;
+    height: 40px;
+    color: black;
+    font-size: 18px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 4px #2e2e2e;
+}
+.naminput , .passinput{
+    display: inline-block;
+    width: 40%;
+    margin: 5px 30px 40px 30px;
+    margin-bottom: 10px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    height: 40px;
+    color: black;
+}
+.naminput::placeholder{
+    color: gray;
+    font-size: 16px;
+}
+.naminput:focus{
+    outline: none;
+}
+.passinput:focus{
+    outline: none;
+}
+.passinput::placeholder{
+    color: gray;
+    font-size: 16px;
+}
+.passinput{
+    margin-top: 20px;
+}
+#securityCode{
+    color: blue;
+    font-size: 25px;
+    text-align: left;
+    display: inline-block;
+    text-decoration: line-through;
+}
+.secInput{
+    display: inline-block;;
+    width: 50%;
+    margin: 5px 98px 40px 30px;
+    margin-bottom: 10px;
+    border: none;
+    background: none;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    height: 40px;
+    color: black;
+}
+.secInput::placeholder{
+    color: gray;
+    font-size: 16px;
+}
+.secInput:focus{
+    outline: none;
+}
+.secOrg{
+    direction: ltr;
+    text-align: center;
+    margin-top: 30px;
+}
+.wrongs{
+    color: red;
+    font-weight: bolder;
+    
+}
+#Timer{
+    font-size: 16px;
+    font-weight: bolder;
+    color: blue;
+    direction: ltr;
+    text-align: end;
+}
+/* End Login */
+
+/* Card 2 */
+.card{
+    box-shadow: 0 5px 8px 0 rgb(0 0 0 / 15%), 0 0px 13px 0 rgb(0 0 0 / 0%);
+    height: 320px;
+    width: 100%;
+}
+.card-title{
+    text-align: center;
+    font-weight: bold;
+}
+.card-text{   
+    text-align: justify;
+    padding: 10px;
+    font-weight: 400;
+}
+.card-btn-1{
+    border: 1px solid rgb(0, 128, 248) !important;
+    background-color: white !important;
+    color: rgb(0, 128, 248) !important;
+    height: 40px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 15px;
+    /* margin-top: 10px; */
+    text-decoration: none;
+}
+.card-btn-1:hover{
+    background-color: rgb(0, 128, 248)!important;
+    color: white !important;
+    transition: .8s all;
+}
+/* End Card 2 */
+
+/*  */
+.footer-bchgrnd{
+    background-color: rgb(228, 228, 228);
+}
+footer p{
+    text-align: justify;
+}
+footer {
+    padding: 30px;
+    text-align: right;
+}
+
+footer h2 {
+    font-size: 20px;
+    color: rgb(66, 66, 66);
+    padding-bottom: 18px;
+    margin: 0;
+}
+
+footer img {
+    width: 100%;
+}
+
+footer p {
+    color: #737373;
+    font-size: 16px;
+    line-height: 23px;
+    margin: 0;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    list-style: none;
+    color: #737373;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+footer ul li a{
+    color: #737373;
+    text-decoration: none;
+}
+
+footer .copy-right ul li i{
+    background-color: #737373;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 50%;
+}
+footer .copy-right ul li{
+    margin: 0 5px;
+}
+.hr-color{
+    color: #737373;
+}
+.fa-facebook:hover{
+    background-color: rgb(66, 66, 255);
+}
+.fa-twitter:hover{
+    background-color: rgb(66, 195, 255);
+}
+.fa-dribbble:hover{
+    background-color: orange;
+}
+.fa-linkedin:hover{
+    background-color: rgb(38, 114, 255);
+}
+.free-text{
+    text-align: center;
+    font-size: 14px;
+    color: blue;
+}
+.parallaxi{
+    position: relative;
+    width: 100%; 
+    height: 700px;
+    background: url('../Image/parallax.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.name-value{
+    display: none;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    color: blue;
+    padding: 0px 5px;
+    float: right;
+}
+.value-i{
+    display: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 0 0 0 20px;
+}
+.color-css{
+    background-color: red !important;
+}
+.carousel{
+    height: 530px;
+}
+.carousel-control-prev-icon , .carousel-control-next-icon{
+    background-color: rgb(228, 228, 228);
+}
+.card-gold{
+    box-shadow: 0 5px 8px 0 rgb(0 0 0 / 15%), 0 0px 13px 0 rgb(0 0 0 / 0%);
+    margin: 0 1px ;
+}
+.card-gold-img{
+    width: 100%;
+    height: 160px;
+    margin: 20px 0;
+} 
+.user-class{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 25px;
+    font-size: 16px;
+    left: 10px;
+}
+.user-number{
+    margin: -2px 5px;
+}
+.golden-a{
+    text-decoration: none !important;
+    color: black !important;
+}
+.titlegold-h{
+    position: relative;
+    margin-right: 90px;
+    padding: 0 15px;
+    color: #4ecccc;
+}
+.titlegold-h::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 2px;
+    background: #4ecccc;
+    left: 100%;
+    top: 50%;
+    position: absolute;
+}
+.titlegold-h::before{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #4ecccc;
+    left: 100%;
+    top: 72%;
+    position: absolute;
+}
+.hr-dot{
+    border: 1px dashed rgb(68, 68, 68);
+    margin-bottom: 10px;
+}
+.title-h{
+    color: blue;
+    margin-bottom: 20px;
+}
+.nimatjk{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+.design-hr{
+    border-top: 1px dashed darkgray;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.btncart{
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 48px;
+}
+.fa-shopping-cart{    
+    color: blue !important;
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+    /* top: 10px; */
+    position: relative;
+    top: 5px;
+}
+#num-cart{
+    position: absolute;
+    top: 22px;
+    left: 250px;
+    font-size: 13px;
+    color: white;
+    background: blue;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.addbtn{
+    display: inline-block;
+    border: 1px solid cornflowerblue;
+    background-color: white;
+    border-radius: 5px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: blue;
+    margin: 0 0px 20px 0;
+}
+.MeetingParagraf{
+    display: inline-block;
+}
+/* .freecssedt{
+    margin-top: 40px;
+} */
+.fa-shopping-cart{
+    padding: 8px 0px 0px 5px;
+    font-size: 25px;
+    color: white;
+}
+.fa-color{
+    color: blue !important;
+    margin: 0 auto;
+    color: blue !important;
+    justify-content: center;
+    padding: 0 0 10px 0px;
+}
+.fixed-Div{
+    position: fixed;
+    top: 80%;
+    right: 5%;
+    display: none;
+}
+.btnfix{
+    border-radius: 50%;
+    background-color: white;
+    border: 1px dashed black;
+    width: 64px;
+    height: 60px;
+    display: inline-block;
+}
+.btnfix:hover .texfix{
+    display: inline-block;
+}
+.btnfix:hover{
+    width: 200px;
+    border-radius: 5px;
+    height: 65px;
+    transition: .5s all;
+    background-color: white;
+    font-weight: bolder;
+}
+.texfix{
+    display: none;
+    width: 120px;
+    margin-bottom: 10px;
+}
+/*  */
+
+/* MediaQuery */
+@media screen and (min-width : 320px) and (max-width : 480px) {
+    .card-text{
+        text-align: center;
+        font-size: 11px;
+    }
+    .mgcss-edt{   
+         margin: 30px 0px 18px 0px;
+    }
+    .csstop{
+        margin-top: 25px;
+    }
+    .dis-css{
+        display: none;
+    }
+    /* .cssedt{
+        margin-top: 10px;
+    } */
+    .hrclass{
+        border: 1px dashed;
+        color: black;
+        width: 85%;
+        margin: 100px 8px 0 0;
+    }
+    nav form .phone-dis{
+        display: inline-block;
+    }
+    .web-dis{
+        display: none;
+    }
+    .logo-img{
+        height: 60px;
+        width: 50%;
+    }
+    .card-org h4{
+        text-align: center;
+        padding: 0;
+    }
+    .card-org p{
+        text-align: center;
+    }
+    .card-org img{ 
+        padding: 25px;
+        width: 100%;
+        margin: 0 auto;
+        height: 145px;
+    }
+    footer .copy-right ul{
+        display: flex;
+        justify-content: center;
+    }
+    footer .copy-right p{
+        justify-content: center;
+    }
+    .card{
+        margin-bottom: 15px;
+        height: 300px;
+    }
+    .card-org{
+        height: 270px;
+        border-radius: 5px;
+        box-shadow: 0px 1px 6px 0px #d8d8d8, 0px 0px 20px 0px #ffffff;
+        margin: 20px 0 15px 0;
+    }
+    .why-us-h2{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+    .card-img-top{
+        height: 107px;
+    }
+    footer img{
+        display: none;
+    }
+    .hrclass{
+        margin-top: 40px;
+    }
+    .search-box{
+        border: none;
+        height: 40px;
+        border-radius: 5px;
+        width: 100%;
+        position: relative;
+        text-align: left;
+        font-size: 14px;
+    }
+    .sub-saerch{
+        position: absolute;
+        background: none;
+        border: none;
+        border-left: 1px solid black;
+        left: 83%;
+        top: 21%;
+    }
+    .pos-edit{
+        position: absolute;
+        top: 35%;
+        left: 22%;
+        width: 55%;
+    }
+    .parallaxi {
+        position: relative;
+        width: 100%;
+        height: 430px;
+        background: url(../Image/parallax.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+    #carouselExampleCaptions{
+        height: 320px;
+    }
+    .carousel-indicators{
+        top: 100%;
+    }
+    .carousel-control-prev , .carousel-control-next{
+        display: none;
+    }
+}
+@media screen and (min-width : 570px) and (max-width : 768px){
+    nav form .phone-dis{
+        display: inline-block;
+    }
+    .logo-img{
+        height: 60px;
+    }
+    .card-org h4{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .card-org p{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .card-org img{ 
+        height: 150px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    footer .copy-right ul{
+        display: flex;
+        justify-content: center;
+    }
+    footer .copy-right p{
+        justify-content: center;
+    }
+    .card{
+        margin-bottom: 15px;
+        height: 380px;
+    }
+    .card-org{
+        height: 300px;
+        border-radius: 5px;
+        box-shadow: 5px 0px 6px 0px #d8d8d8, 0px 0px 20px 0px #ffffff;
+        margin: 75px 0 0 0 ;
+    }
+    .hrclass{
+        margin-top: 50px;
+    }
+    .why-us-h2{
+        font-size: 25px;
+    }
+    .card-img-top{
+        height: 120px;
+    }
+    footer img{
+        display: none;
+    }
+    .card-btncss{
+        margin-top: 35px;
+    }
+}
+@media  screen and (min-width : 760px) and (max-width : 1024px) {
+    .logo-img{
+        height: 60px;
+    }
+    .card-org h4{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .card-org p{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .card-org img{ 
+        height: 100px;
+        width: 60%;
+        margin: 10px 40px 0 0;
+    }
+    footer .copy-right ul{
+        display: flex;
+        justify-content: center;
+    }
+    footer .copy-right p{
+        justify-content: center;
+    }
+    .card{
+        height: 380px;
+    }
+    .card-org{
+        height: 300px;
+        border-radius: 5px;
+        box-shadow: 5px 0px 6px 0px #d8d8d8, 0px 0px 20px 0px #ffffff;
+        margin: 75px 0 0 0 ;
+    }
+    .hrclass{
+        margin-top: 80px;
+    }
+    .why-us-h2{
+        font-size: 30px;
+    }
+    .card-img-top{
+        height: 120px;
+    }
+    footer img{
+        display: none;
+    }
+}
+@media screen and (min-width : 1284px) {
+    .card-org img{
+        padding: 10px;
+        margin: 5px 60px 0px 0px;
+        width: 50%;
+        height: 130px;
+    }
+    footer .copy-right ul{
+        display: flex;
+        justify-content: center;
+    }
+    .card-img-top{
+        height: 100px ;
+    }
+    .card-org{
+        width: 250px;
+        height: 350px;
+        border-radius: 5px;
+        box-shadow: 5px 0px 6px 0px #d8d8d8, 0px 0px 20px 0px #ffffff;
+        margin-top: 110px;
+        position: relative;
+        right: 50px;
+        border: none;
+        color: black;
+        box-shadow: 1px 1px 6px 0px #d8d8d8, 0px 0px 20px 0px #ffffff;
+        margin-bottom: 15px;
+    }
+    .search-box{
+        border: none;
+        height: 45px;
+        border-radius: 5px;
+        width: 100%;
+        position: relative;
+        text-align: center;
+        font-size: 14px;
+    }
+    .sub-saerch{
+        position: absolute;
+        background: none;
+        border: none;
+        border-left: 1px solid black;
+        left: 91%;
+        top: 23%;
+    }
+    .pos-edit{
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        width: 30%;
+    }
+    .mg-css-edit{
+        margin-top: 11px;
+    }
+    .mgcss-edt{
+        margin-top: 40px;
+    }
+}

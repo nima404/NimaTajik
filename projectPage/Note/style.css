@@ -1,0 +1,385 @@
+body{
+    background: linear-gradient(to left, rgb(238, 238, 238) 50%, rgb(155, 137, 255) 50%);
+    font-family: IranSans;
+    user-select: none;
+}
+@font-face {
+    font-family:'Vazir-FD';
+    src: url('../Note/Assets/Fonts/vazir/woff/Vazir-FD.woff') format('woff');
+}
+@font-face {
+    font-family:'IranSans';
+    src: url('../Note/Assets/Fonts/IranSans/woff/IRANSansWeb\(FaNum\).woff') format('woff');
+}
+a{
+    text-decoration: none;
+}
+.OrginalDiv-Center{
+    background-color: white;
+    box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 36%);
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3%;
+    border-radius: 8px;
+}
+.MenuUserDiv{
+    background-color: rgb(109, 72, 211);
+    border-radius: 8px 0px 0px 0px;
+}
+.MenuUserImg{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    /* box-shadow: 0px 0px 5px 0px rgb(255 255 255); */
+    display: inline-block;
+    margin: 3%;
+}
+.MenuUserName{
+    display: inline-block;
+    color: white;
+}
+.MenuBackground{
+    background-color: rgb(155, 137, 255);
+    border-radius: 8px 0px 0px 7px;
+}
+.MenuOrgItems{
+        padding:0;
+}
+.MenuItems{
+    list-style: none;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.MenuItems-Btn{
+    overflow: hidden;
+    position: relative;
+    padding: 10px 0px 5px 25px;
+    display: block;
+    line-height: 50px;
+    background: none;
+    border: none;
+    border: white;
+    width: 100%;
+    text-align: left;
+}
+.MenuItemsIcon{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 0 20px 0 0;
+}
+.hrDiv{
+    height: 1.5px;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+}
+.MenuOrgItemPersolan{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.MenuPersonal-btn{
+    background: none;
+    border: none;
+    display: block;
+    padding: 5px 0 0px 20px;
+}
+.MenuPersonalItems{
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.MenuPersonalItems::marker {
+  color: orange;
+  font-weight: bold;
+  font-size: 18px;
+}
+.markerTow::marker {
+    color: skyblue;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .markerThree::marker {
+    color: orangered;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .MassageBoxItem{
+      list-style: none;
+      display: inline-block;
+  }
+  .MassageBoxOrgItem{
+      text-align: center;
+      margin: 90px 15% 10px 0;
+  }
+  .MassageBoxItem img{
+    width: 12px;
+    height: 13px;
+    margin: 2.5px;
+  }
+  .copyRight{
+      color: rgb(255, 255, 255);
+      text-align: center;
+      font-size: 8px;
+  }
+  .fixedDiv{
+      position: relative;
+      bottom: 0;
+      background: rgba(240, 248, 255, 0.521);
+      width: 100%;
+  }
+  .fixedDiv p {
+      text-align: center;
+      color: rgb(171, 215, 221);
+      font-weight: bold;
+      height: 35px;
+  }
+  .MassageBoxItem:hover {
+    animation: shake 1s cubic-bezier(.36,.07,.19,.97) both;
+  }
+  .spanStyle{
+    position: absolute;
+    background: #fff;
+    transform: translate(-50% , -50%) ;
+    pointer-events: none;
+    border-radius: 50%;
+    animation: animate 1s linear infinite;
+}
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-0.5px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(0.5px, 0, 0);
+    }
+  }
+
+  @keyframes animate {
+      0%{
+          width: 0px;
+          height: 0px;
+          opacity: 0.5;
+      }
+      100%{
+          width: 500px;
+         height: 500px;
+         opacity: 0;
+      }
+  }
+
+
+  /* Page */
+  .pageBackground{
+      background: rgb(238, 238, 238);
+  }
+  .pageHeader{
+    background: white;
+    box-shadow: 0px 5px 4px 0px rgb(223 223 223);
+  }
+  .pageBackground button{
+      background: none;
+      border: none;
+  }
+  .pageUserImg{
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      display: inline-block;
+  }
+  .pageUserName{
+    display: inline-block;
+    font-size: 14px;
+    padding: 0px 10px 0 5px;
+    color: rgb(184, 184, 184);
+  }
+  .searchImg{
+    position: absolute;
+    top: 11%;
+    left: 28%;
+    width: 17px;
+    height: 17px;
+  }
+  .inputSearch{
+    display: inline-block;
+    border: none;
+    background: rgb(248, 248, 248);
+    border-radius: 5px;
+    height: 35px;
+    width: 70%;
+    margin: 2px 0 0 40px;
+    text-align: right;
+    direction: rtl;
+    padding: 10px;
+    font-size: 12px;
+    position: relative;
+  }
+  .inputSearch:focus{
+      outline: none;
+  }
+  .notifactionIcon{
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+  }
+  .notifactionIcon:hover{
+    animation: shake 1s cubic-bezier(.36,.07,.19,.97) both;
+  }
+  .pageItem1{
+    margin: 10px;
+  }
+  .pageItem2{
+    text-align: end;
+    margin: 5px 40px 5px 0;
+  }
+  .clickItem{
+      padding: 10px;
+      font-size: 15px;
+      color: black;
+  }
+  .clickItemDiv{
+    text-align: right;
+    margin: 30px 35px 0 0;
+    direction: rtl;
+  }
+  .activeItemClick{
+      background: rgb(155, 137, 255) !important;
+      color: white;
+      border-radius: 5px;
+      font-size: 14px;
+  }
+  .fa-plus-circle{
+      color: rgb(155, 137, 255);
+      display: inline-block;
+  }
+  .addNote{
+    color: rgb(155, 137, 255);
+    display: inline-block;
+}
+.addDiv{
+    margin: 35px 0 0 35px;
+}
+.cardDiv{
+    background: white;
+    box-shadow: 0 0 10px 0 rgb(223 223 223);
+    border-radius: 5px;
+    width: 85%;
+    margin: 10px 0px 0px 25px;
+    text-align: center;
+    padding: 1px;
+}
+.recycleaimg{
+    width: 20px;
+    height: 20px;
+}
+#recycleaBtn1 , #recycleaBtn2 , #recycleaBtn3 , #recycleaBtn4 , #recycleaBtn5 ,#recycleaBtn6 ,#recycleaBtn7 ,#recycleaBtn8, #recycleaBtn9{
+    float: right;
+}
+
+/* Modal */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 5px 15px 20px 15px;
+    border: 1px solid #888;
+    width: 50%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    text-align: end;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modalFormAlign{
+      text-align: center;
+  }
+  .modalFormInput{
+    /* display: inline-block; */
+    border: none;
+    background: rgb(248, 248, 248);
+    border-radius: 5px;
+    direction: rtl;
+    font-size: 12px;
+  }
+  .modalFormInput:focus{
+      outline: none;
+  }
+  .modalFormAlign label{
+      direction: rtl;
+      font-size: 16px;
+      color: rgb(155, 137, 255);
+      font-weight: bolder;
+  }
+  .modalFormInput1{
+    height: 40px;
+    width: 25%;
+    margin-top: 10px;
+  }
+  .modalFormInput2{
+    margin-top: 10px;
+    width: 40%;
+    height: 100px;
+    text-align: justify;
+  }
+  .modalFormSubmit{
+      color: white;
+      background-color: rgb(155, 137, 255);
+      border: none;
+      border-radius: 5px;
+      width: 10%;
+      height: 40px;
+  }
+  .addDisplay{
+      display: none;
+  }
+  .notRegisteredNote{
+    color: gray;
+    text-align: center;
+    margin-top: 20%;
+    direction: rtl;
+  }
+
+  .cardDiv h3{
+    margin-top: 30px;
+    font-size: 23px;
+  }
+  .cardDiv p{
+    margin-top: 12px;
+    font-size: 15px;
+  }

@@ -83,16 +83,11 @@
     width: 105%;
     border-radius: 10px;
     height: 80%;
-    /* padding: 15px; */
     box-shadow: 0px 0px 12px 0px #ebebeb;
-    /* position: relative; */
-    /* top: 5%; */
 }
 #privPhoneProj{
     font-size: 18px;
     color: black;
-    position: relative;
-    /* bottom: 20%; */
     font-family: 'Font Awesome 5 Pro';
 }
 
@@ -103,17 +98,12 @@
     text-align: center;
     width: 105%;
     border-radius: 10px;
-    height: 60%;
-    /* padding: 15px; */
+    height: 80%;
     box-shadow: 0px 0px 12px 0px #ebebeb;
-    /* position: relative; */
-    /* top: 5%; */
 }
 #privPhoneProj1{
     font-size: 18px;
     color: black;
-    position: relative;
-    /* bottom: 20%; */
     font-family: 'Font Awesome 5 Pro';
 }
 .addTopClassChange::before{
@@ -584,10 +574,10 @@
         text-decoration: none;
         color: darkgoldenrod;
         width: 140px;
-        height: 100%;
+        max-width: 100%;
         display: inline-grid;
         place-items: center;
-        font-size: 21px;
+        font-size: 20px;
         z-index: 1;
         position: relative;
         overflow: hidden;

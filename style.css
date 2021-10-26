@@ -2,12 +2,12 @@
     display: none;
 }
 *{
-    cursor: url(../NimaTjk/Assets/Img/circle-and-cursor-arrow.png) , auto;
+    cursor: url(../NimaTajik/Assets/Img/circle-and-cursor-arrow.png) , auto;
     font-family:'Vazir-FD';
 }
 @font-face {
     font-family:'Vazir-FD';
-    src: url('../NimaTjk/Assets/Fonts/vazir/woff/Vazir-FD.woff') format('woff');
+    src: url('../NimaTajik/Assets/Fonts/vazir/woff/Vazir-FD.woff') format('woff');
 }
 /* .windosBodyPic , .windosBodyPic2 {
     display: none;
@@ -717,7 +717,7 @@
     }
     .parallax{
         display: none;
-        background-image: url(../NimaTjk/Assets/Img/altumcode-7iXRCPp9Akc-unsplash\(1\).jpg);
+        background-image: url(../NimaTajik/Assets/Img/altumcode-7iXRCPp9Akc-unsplash\(1\).jpg);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -922,7 +922,7 @@
     }
     .parallax{
         display: none;
-        background-image: url(../NimaTjk/Assets/Img/altumcode-7iXRCPp9Akc-unsplash\(1\).jpg);
+        background-image: url(../NimaTajik/Assets/Img/altumcode-7iXRCPp9Akc-unsplash\(1\).jpg);
         background-attachment: fixed;
         background-position: top;
         background-repeat: no-repeat;
@@ -1060,7 +1060,7 @@
         height: 500px; */
     /* } */
     .windosBodyPic{
-        background-image: url(../NimaTjk/Assets/Img/ben-kolde-bs2Ba7t69mM-unsplash.jpg) ;
+        background-image: url(../NimaTajik/Assets/Img/ben-kolde-bs2Ba7t69mM-unsplash.jpg) ;
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -1150,7 +1150,7 @@
     margin-right: -250px;
     overflow-x: hidden;
     /* background: rgb(190, 190, 190); */
-    background-image: url(../NimaTjk/Assets/Img/augustine-wong-li0iC0rjvvg-unsplash.jpg);
+    background-image: url(../NimaTajik/Assets/Img/augustine-wong-li0iC0rjvvg-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     -webkit-transition: all 0.5s ease;
@@ -1403,7 +1403,7 @@
     box-shadow: 0px 0px 0px 4px #dddddd;
 }
 .orgProjectDivWindows2{
-    cursor: url('../NimaTjk/Assets/Img/circle-and-cursor-arrow.png');
+    /* cursor: url('../NimaTjk/Assets/Img/circle-and-cursor-arrow.png'); */
     background-color: white;
     color: black;
     margin-top: 30px;
@@ -1452,9 +1452,9 @@
     bottom: 470px;
     width: 100%;
 }
-/* #windowsDisplayNone{
+#windowsDisplayNone{
     display: none;
-} */
+}
 .porojOneWindows1 img{
     width: 140px;
     height: 140px;

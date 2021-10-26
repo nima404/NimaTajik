@@ -27,17 +27,17 @@ var bar1 = ldBar("#myItem1");
 var timeLoad = setInterval(function () {
     // doc.querySelector('#myItem2').style.display = 'none';
     set(100);
-}, 3000);
+}, 4500);
 
 var startPage = setInterval(function () {
     doc.getElementById("firstDisplayMode").style.display = "inline-block";
     doc.getElementById("firstDisplayMode1").style.display = "block";
     doc.getElementById("firstDisplayMode2").style.display = "block";
-}, 4000);
+}, 5500);
 
 var deletLoading = setInterval(function () {
     doc.getElementById("myItem1").style.display = 'none';
-}, 4020);
+}, 4520);
 clearInterval();
 
 let nav = document.querySelector('.nav')

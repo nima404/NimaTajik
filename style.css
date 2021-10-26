@@ -9,9 +9,6 @@
     font-family:'Vazir-FD';
     src: url('../NimaTajik/Assets/Fonts/vazir/woff/Vazir-FD.woff') format('woff');
 }
-/* .windosBodyPic , .windosBodyPic2 {
-    display: none;
-} */
 @keyframes shake {
     10%, 90% {
       transform: translate3d(-1px, 0, 0);
@@ -85,7 +82,7 @@
     text-align: center;
     width: 105%;
     border-radius: 10px;
-    height: 60%;
+    height: 80%;
     /* padding: 15px; */
     box-shadow: 0px 0px 12px 0px #ebebeb;
     /* position: relative; */
@@ -95,7 +92,7 @@
     font-size: 18px;
     color: black;
     position: relative;
-    bottom: 20%;
+    /* bottom: 20%; */
     font-family: 'Font Awesome 5 Pro';
 }
 
@@ -116,20 +113,9 @@
     font-size: 18px;
     color: black;
     position: relative;
-    bottom: 20%;
+    /* bottom: 20%; */
     font-family: 'Font Awesome 5 Pro';
 }
-/*  */
-/* .addTopClassChange{
-    border-radius: 50% !important;
-    position: relative !important;
-    bottom: 28px !important;
-    background-color: rgba(0, 0, 0, 0.13) !important;
-    margin: 0 10px !important;
-    border: none !important;
-    width: 50px !important;
-    text-align: center !important;
-} */
 .addTopClassChange::before{
     content: "" !important;
     position: absolute !important;
@@ -141,7 +127,6 @@
     background: transparent !important;
     z-index: -1 !important;
     background-color: rgb(207, 158, 33) !important;
-    /* transition: 1s !important; */
 }
 .addTopClassChange::after{
     content: "" !important;
@@ -154,13 +139,11 @@
     z-index: -1 !important;
     background-color: rgb(207, 158, 33) !important;
     right: 3.8ch !important;
-    /* transition: 1s !important; */
 }
 .addTopClass{
     border-radius: 50%;
     position: relative;
     bottom: 28px;
-    /* background-color: rgba(233, 233, 233, 0.045); */
     margin: 0 10px;
     border: none;
     /* width: 50px; */
@@ -333,10 +316,6 @@
     margin: 0 auto;
     position: relative;
     top: 42%;
-    /* left: 50%; */
-    /* right: 50%; */
-    /* bottom: 50%; */
-    /* margin-top: 80%; */
 }
 .ldBar-label{
     position: absolute;
@@ -384,9 +363,9 @@
     position: relative;
     color: goldenrod;
     text-align: center;
-    margin: 16px 31px 20px 0;
-    width: 7ch;
-    animation: typing 2s steps(9 , end), cursor-blink 0.7s step-end infinite alternate;
+    margin: 16px 20px 20px 0;
+    width: 5.399ch;
+    animation: typing 2s steps(7 , end), cursor-blink 0.7s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     height: 30px;
@@ -484,11 +463,9 @@
     border-bottom: 1px dashed darkgoldenrod !important;
     border: none;
     margin-top: 20px;
-    /* border: none; */
     box-shadow: inset 2px 1px 0px 0px rgb(247 244 244), inset -3px 0px 0px 0px rgb(247 244 244);
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    /* border-radius: 10px; */
     height: 45px;
     width: 150px;
     color: darkgoldenrod;
@@ -546,35 +523,6 @@
 .orgProjectDiv{
     display: none;
 }
-/* Media Query */
-/* @media screen and (max-width : 320px){
-    
-}
-@media screen and (min-width : 375px) and (max-width : 424px) {
-    
-    
-}
-
-@media screen and (min-width: 425px) and (max-width: 767px) {
-    
-}
-
-@media screen and (min-width : 768px) and (max-width : 1024px) {
-    
-   
-    
-}
-
-@media screen and (min-width : 1025px) {
-    
-} */
-
-
-
-
-
-
-
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -707,9 +655,9 @@
         position: relative;
         color: goldenrod;
         text-align: center;
-        margin: 16px 60px 20px 0;
-        width: 7ch;
-        animation: typing 2s steps(9 , end), cursor-blink 0.7s step-end infinite alternate;
+        margin: 16px 20px 20px 0;
+        width: 5.399ch;
+        animation: typing 2s steps(7 , end), cursor-blink 0.7s step-end infinite alternate;
         white-space: nowrap;
         overflow: hidden;
         height: 30px;

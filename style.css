@@ -716,6 +716,9 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    .windowsDisplayNone{
+        display: none;
+    }
     .navA{
         text-decoration: none;
         color: darkgoldenrod;
@@ -736,9 +739,6 @@
     }
     #windosProjeDis{
         display: none;
-    }
-    .windowsDisplayNone{
-        display: block;
     }
     body {
         position: relative;
@@ -871,6 +871,9 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .windowsDisplayNone{
+        display: none;
+    }
     .projeImgNote{
         width: 100%;
         height: 120px;

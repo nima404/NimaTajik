@@ -60,7 +60,7 @@
     display: none;
 }
 .BodyPic{
-    background-image: url(../NimaTjk/Assets/Img/sigmund-65u8D-iNh0M-unsplash.jpg);
+    background-image: url(../NimaTajik/Assets/Img/sigmund-65u8D-iNh0M-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 45rem;
@@ -91,26 +91,6 @@
     /* position: relative; */
     /* top: 5%; */
 }
-.circPhone1{
-    position: relative;
-    background-color: goldenrod;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 0px 3px rgb(233 233 233);
-    top: 5%;
-    right: 3%;
-}
-.circPhone2{
-    position: relative;
-    background-color: goldenrod;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    bottom: 11%;
-    right: 88%;
-    box-shadow: 0px 0px 0px 3px rgb(233 233 233);
-}
 #privPhoneProj{
     font-size: 18px;
     color: black;
@@ -131,26 +111,6 @@
     box-shadow: 0px 0px 12px 0px #ebebeb;
     /* position: relative; */
     /* top: 5%; */
-}
-.circPhone3{
-    position: relative;
-    background-color: goldenrod;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    box-shadow: 0px 0px 0px 3px rgb(233 233 233);
-    top: 5%;
-    right: 3%;
-}
-.circPhone4{
-    position: relative;
-    background-color: goldenrod;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    bottom: 11%;
-    right: 88%;
-    box-shadow: 0px 0px 0px 3px rgb(233 233 233);
 }
 #privPhoneProj1{
     font-size: 18px;
@@ -412,7 +372,7 @@
 }
 .parallax{
     display: none;
-    background-image: url(../NimaTjk/Assets/Img/altumcode-7iXRCPp9Akc-unsplash\(1\).jpg);
+    background-image: url(../NimaTajik/Assets/Img/altumcode-7iXRCPp9Akc-unsplash\(1\).jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

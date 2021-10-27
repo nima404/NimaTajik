@@ -357,7 +357,7 @@
     color: goldenrod;
     text-align: center;
     margin: 16px 20px 20px 0;
-    width: 5.399ch;
+    width: 7ch;
     animation: typing 2s steps(7 , end), cursor-blink 0.7s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
@@ -653,7 +653,7 @@
         color: goldenrod;
         text-align: center;
         margin: 16px 20px 20px 0;
-        width: 5.399ch;
+        width: 7ch;
         animation: typing 2s steps(7 , end), cursor-blink 0.7s step-end infinite alternate;
         white-space: nowrap;
         overflow: hidden;

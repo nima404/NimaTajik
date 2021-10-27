@@ -26,6 +26,12 @@
       transform: translate3d(4px, 0, 0);
     }
   }
+  #projIconClick:hover{
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  }
+  #userIconClick:hover{
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  }
 .miniProje:hover{
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
     transform: translate3d(0, 0, 0);
@@ -516,6 +522,7 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
     /* #windowsDisplayNone{
         display: none !important;
     } */
@@ -562,7 +569,7 @@
         display: none !important;
     } */
     #dipslaWindosIntrodus{
-        display: none;
+        display: none !important;
     }
     #windosProjeDis{
         display: none;

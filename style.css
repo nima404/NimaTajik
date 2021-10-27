@@ -26,7 +26,9 @@
       transform: translate3d(4px, 0, 0);
     }
   }
- 
+  .navBtnWindows:hover{
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  }
 .miniProje:hover{
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
     transform: translate3d(0, 0, 0);
@@ -873,10 +875,7 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    #projIconClick:hover{
-        animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-      }
-      #userIconClick:hover{
+    .navBtnWindows:hover{
         animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
       }
     .windowsDisplayNone{
@@ -1447,10 +1446,7 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    #projIconClick:hover{
-        animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-      }
-      #userIconClick:hover{
+    .navBtnWindows:hover{
         animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
       }
 }

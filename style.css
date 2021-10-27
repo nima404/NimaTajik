@@ -26,7 +26,7 @@
       transform: translate3d(4px, 0, 0);
     }
   }
-  .navBtnWindows:hover{
+  .navBtnWindows i:hover{
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
   }
 .miniProje:hover{
@@ -398,11 +398,11 @@
     border-top-left-radius: 50px;
     filter: url(#goo);
     border-top-right-radius: 50px;
+    justify-content: space-around;
 }
 .navA{
     text-decoration: none;
     color: darkgoldenrod;
-    width: 106px;
     height: 100%;
     display: inline-grid;
     place-items: center;
@@ -520,6 +520,9 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+    .MediaPhone{
+    display: none;
+    }
     /* #windowsDisplayNone{
         display: none !important;
     } */
@@ -536,7 +539,6 @@
     .navA{
         text-decoration: none;
         color: darkgoldenrod;
-        width: 106px;
         height: 100%;
         display: inline-grid;
         place-items: center;
@@ -560,8 +562,10 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
+@media only screen and (min-width: 600px) and (max-width:767px) {
+    .MediaPhone{
+        display: none;
+        }
     /* #windowsDisplayNone{
         display: none !important;
     } */
@@ -577,7 +581,6 @@
     .navA{
         text-decoration: none;
         color: darkgoldenrod;
-        width: 140px;
         max-width: 100%;
         display: inline-grid;
         place-items: center;
@@ -719,14 +722,16 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width:991px){
+    .MediaPhone{
+        display: none;
+        }
     .windowsDisplayNone{
         display: none;
     }
     .navA{
         text-decoration: none;
         color: darkgoldenrod;
-        width: 256px;
         height: 100%;
         display: inline-grid;
         place-items: center;
@@ -843,7 +848,6 @@
     .navA{
         text-decoration: none;
         color: darkgoldenrod;
-        width: 341px;
         height: 100%;
         display: inline-grid;
         place-items: center;
@@ -874,7 +878,7 @@
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width:1199px) {
     .navBtnWindows:hover{
         animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
       }

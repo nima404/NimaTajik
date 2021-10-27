@@ -224,10 +224,8 @@ var startPage1 = setTimeout(function () {
     var boduchangeBack = doc.querySelector('.windosBodyPic');
     boduchangeBack.classList.replace('windosBodyPic' , 'windosBodyPic2');
     // doc.querySelector('#myItem2').style.display = 'none';
-    doc.querySelector('#windowsDisplayNone').style.display = 'block';
+    doc.querySelector('#windowsDisplayNone').classList.add('MediaPhone');
     doc.querySelector('#dipslaWindosIntrodus').style.display = 'block';
-    doc.querySelector('#windowsDisplayNone').style.display = 'block';
-    doc.querySelector('#windowsDisplayNone').style.display = 'block';
 
 }, 4000);
 // // clearTimeout('startPage1');

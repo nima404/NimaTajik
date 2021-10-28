@@ -5,6 +5,9 @@
     user-select: none;
     font-family:'Vazir-FD';
 }
+button:focus{
+    outline: none !important;
+}
 @font-face {
     font-family:'Vazir-FD';
     src: url('../NimaTajik/Assets/Fonts/vazir/woff/Vazir-FD.woff') format('woff');
@@ -724,13 +727,40 @@
         border-radius: 0px 30px 0px 0px;
     }
     .projeImg{
-        width: 55%;
+        width: 90% !important;
         height: 100%;
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width:991px){
+    @keyframes upDownTablet{
+        50%{
+            top: 68%;
+        }
+        100%{
+            top: 72%;
+        }
+    }
+    .mailBox {
+        position: absolute;
+        top: 70%;
+        right: 10%;
+        /* color: goldenrod; */
+        animation: upDownTablet 3s infinite;
+        font-size: 25px;
+    }
+    .nav-indicator{
+     width: 70px;
+     height: 80px;
+     border-radius: 50%;
+     background-color: rgb(233, 233, 233);
+     position: absolute;
+     top: -20px;
+     left: calc(54% - 8%) !important;
+     z-index: -1;
+     transition: left 0.5s cubic-bezier(0.4, 0, 1, 1);
+    }
     .MediaPhone{
         display: none;
         }

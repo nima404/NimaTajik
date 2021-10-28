@@ -526,10 +526,6 @@
     /* #windowsDisplayNone{
         display: none !important;
     } */
-
-    #windowsDisplayNone{
-        display: none !important;
-    }
     #dipslaWindosIntrodus{
         display: none;
     }
@@ -566,16 +562,10 @@
     .MediaPhone{
         display: none;
         }
-    /* #windowsDisplayNone{
-        display: none !important;
-    } */
     #dipslaWindosIntrodus{
         display: none !important;
     }
     #windosProjeDis{
-        display: none;
-    }
-    .windowsDisplayNone{
         display: none;
     }
     .navA{
@@ -726,9 +716,6 @@
     .MediaPhone{
         display: none;
         }
-    .windowsDisplayNone{
-        display: none;
-    }
     .navA{
         text-decoration: none;
         color: darkgoldenrod;
@@ -740,9 +727,6 @@
         position: relative;
         overflow: hidden;
     } 
-    /* #windowsDisplayNone{
-        display: none !important;
-    } */
     #dipslaWindosIntrodus{
         display: none;
     }
@@ -882,9 +866,9 @@
     .navBtnWindows:hover{
         animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
       }
-    .windowsDisplayNone{
+    /* .windowsDisplayNone{
         display: none;
-    }
+    } */
     .projeImgNote{
         width: 100%;
         height: 120px;
@@ -892,14 +876,13 @@
     .phoneDisplayNone{
         display: none !important;
     }
-    
     .BodyPic{
         background-image: none;
     }
     body {
-        
         position: relative;
       }
+
       .projetitleWindos{
         font-size: 26px;
         font-weight: bolder;
@@ -1453,4 +1436,567 @@
     .navBtnWindows:hover{
         animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
       }
+    /* .windowsDisplayNone{
+        display: none;
+    } */
+    .projeImgNote{
+        width: 100%;
+        height: 120px;
+    }
+    .phoneDisplayNone{
+        display: none !important;
+    }
+    .BodyPic{
+        background-image: none;
+    }
+    body {
+        position: relative;
+      }
+
+      .projetitleWindos{
+        font-size: 26px;
+        font-weight: bolder;
+        color: indigo;
+        margin: 0 0 40px 0;
+      }
+      /* .nav-pills {
+        position: fixed;
+        top: 10%;
+      } */
+      /* div.col-sm-9 div {
+        height: 250px;
+        font-size: 28px;
+      } */
+      #section1 {color: #fff; background-color: #1E88E5;}
+      #section2 {color: #fff; background-color: #673ab7;}
+      #section3 {color: #fff; background-color: #ff9800;}
+      #section41 {color: #fff; background-color: #00bcd4;}
+      #section42 {color: #fff; background-color: #009688;}
+      
+      .myImgDiv{
+          text-align: center;
+      }
+      .nimatjk{
+        margin: 40px 0 20px 0;
+        color: blue;
+        font-weight: bolder;
+    }
+    .introdiusParagrafW span{
+        color: royalblue;
+        /* font-weight: bolder; */
+        font-size: 18px;
+    }
+      .introdiusParagrafW{
+          font-size: 15px;
+      }
+      .myIntrodus{
+        box-shadow: 0px 0px 8px 0px #dddddd, 0px 0px 8px 0px #dddddd;
+        text-align: center;
+        height: 430px;
+        border-radius: 120px 0px 120px 0px;
+        /* background-image: url(../NimaTjk/Assets/Img/georgie-cobbs-bKjHgo_Lbpo-unsplash.jpg); */
+        /* background-size: cover; */
+        /* background-repeat: no-repeat; */
+        direction: rtl;
+      }
+      /* .orgCart{
+        box-shadow: 0px 0px 12px 0px #ebebeb;
+        width: 20%;
+        height: 60%;
+        border-radius: 8px;
+        background-color: white;
+        direction: rtl;
+      } */
+      .myImgw{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        /* border: 1px solid black; */
+        box-shadow: 0px 0px 12px 0px #ebebeb;
+        margin-top: 10px;
+      }
+      .typeDiv{
+          text-align: center;
+      }
+      .typeTestW{
+        width: 10ch;
+        animation: typing 1.8s steps(10 , end), cursor-blink 0.7s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: center;
+        height: 100px;
+        margin: 0 auto;
+        font-weight: bolder;
+        color: mediumblue;
+        font-size: 25px;
+        margin-top: 30px;
+        height: 40px;
+    }
+    .typeTestW2{
+        width: 22ch;
+        animation:typing 4s steps(18 , end), cursor-blink 0.7s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: center;
+        height: 100px;
+        margin: 0 auto;
+        font-weight: bolder;
+        color: royalblue;
+        font-size: 16px;
+        position: relative;
+        top: 20px;
+        border-left: 2px solid;
+        height: 30px;
+    }
+    @keyframes typing{
+        from {
+            width: 0;
+        }
+    }
+    @keyframes cursor-blink{
+        50%{
+            border-color: transparent;
+        }
+    }
+    /* .borderChange{
+        border-right: 1px dashed darkgoldenrod;
+        position: relative;
+        bottom: 99px;
+        height: 500px; */
+    /* } */
+    .windosBodyPic{
+        background-image: url(../NimaTajik/Assets/Img/ben-kolde-bs2Ba7t69mM-unsplash.jpg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .windosBodyPic2{
+        background-image: none;
+        background: rgb(255, 255, 255);
+    }
+    #firstDisplayMode1 , #myItem1{
+        display: none !important;
+    }
+    #myItem2{
+        display: block;
+        margin: 0 auto;
+        position: relative;
+        top: 45%;
+        /* left: 50%; */
+        /* right: 50%; */
+        /* bottom: 50%; */
+        /* margin-top: 80%; */
+    }
+    .ldBar-label {
+        position: absolute;
+        top: 30px;
+        color: black;
+        right: 30px;
+    }
+    .windowsNavEdit{
+        background: rgb(226, 226, 226);
+        width: 21%;
+        position: fixed;
+        left: 80%;
+        border-radius: 10px 10px 10px 750%;
+        height: 210px;
+    }
+    .barWindos{
+        color: darkblue !important;
+        font-size: 22px;
+    }
+    .barEdit{
+        text-align: left;
+    }
+    .navBtnWindows{
+        text-align: center;
+        position: relative;
+        top: 15em;
+    }
+    .navBtnWindows button{
+        background: none;
+        border: none;
+        padding: 15px;
+    }
+    .navBtnWindows i{
+        font-size: 20px;
+        color: darkblue;
+    }
+    #menu-toggle{
+    width: 6%;
+    height: 60px;
+    position: relative;
+    top: 12px;
+    left: 3%;
+
+    
+    }
+    #menu-toggle:focus{
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    /*  */
+    
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#wrapper.toggled {
+    padding-left: 250px;
+}
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-right: -250px;
+    overflow-x: hidden;
+    /* background: rgb(190, 190, 190); */
+    background-image: url(../NimaTajik/Assets/Img/augustine-wong-li0iC0rjvvg-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+/* Sidebar Styles */
+.iconClick {
+    position: fixed !important;
+    left: 10% !important;
+    top: 5% !important;
+    transition:  3s !important;
+    animation: upDowns 3s infinite ;
+}
+@keyframes upDowns{
+    50%{
+        top: 1%;
+    }
+    100%{
+        top: 30%;
+    }
+}
+ .sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+    padding-right: 17%;
+}
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999999;
+}
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+}
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
+    text-decoration: none;
+}
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    font-size: 18px;
+    line-height: 60px;
+}
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+#sidebar-wrapper {
+    top: 0px;
+    z-index: 1000;
+    position: fixed;
+    left: 0%;
+    width: 360px;
+    height: 100%;
+    margin-right: -250px;
+    overflow-y: hidden;
+    /* background: rgb(235, 235, 235); */
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#wrapper.toggled #sidebar-wrapper {
+    width: 0px;
+}
+.pjImg{
+    width: 50px;
+    height: 50px;
+}
+
+.myBiogrophy{
+    line-height: 32px;
+    margin-top: 40px;
+    color: royalblue;
+    font-size: 15px;
+}
+/* .projOneDiv{
+    background-color: rgb(238, 238, 238);
+    width: 30%;
+    height: 20px;
+    border-radius: 50%;
+} */
+
+.skillsWindos{
+    font-size: 20px;
+    font-weight: bolder;
+    color: darkblue;
+    width: 9ch;
+        animation:typing 3s steps(10 , end), cursor-blink 0.7s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        text-align: center;
+        height: 100px;
+        /* margin: 0 auto; */
+        font-weight: bolder;
+        /* color: royalblue; */
+        /* font-size: 16px; */
+        position: relative;
+        /* top: 20px; */
+        /* border-left: 2px solid; */
+        height: 25px;
+}
+.aftertow::before{
+    content: '';
+    position: absolute;
+    width: 0.5%;
+    height: 2px;
+    background-color: royalblue;
+    top: 6.8%;
+    right: 35.5%;
+}
+.aftertow::after{
+    content: '';
+    position: absolute;
+    width: 0.5%;
+    height: 2px;
+    background-color: royalblue;
+    top: 6.8%;
+    right: 42.2%;
+}
+.afterthree::before{
+    content: '';
+    position: absolute;
+    width: 1.5%;
+    height: 2px;
+    background-color: royalblue;
+    top: 6.1%;
+    right: 41.75%;
+}
+.afterthree::after{
+    content: '';
+    position: absolute;
+    width: 0.5%;
+    height: 2px;
+    background-color: royalblue;
+    top: 5.4%;
+    right: 42.21%;
+}
+.afterone::before{
+    content: '';
+    position: absolute;
+    width: 1.5%;
+    height: 2px;
+    background-color: royalblue;
+    top: 6.1%;
+    right: 35%;
+}
+.afterone::after{
+    content: '';
+    position: absolute;
+    width: 0.5%;
+    height: 2px;
+    background-color: royalblue;
+    top: 5.4%;
+    right: 35.5%;
+}
+.orgProjectDivWindows{
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+    text-align: center;
+    width: 95%;
+    height: 70%;
+    padding: 15px;
+    box-shadow: 0px 0px 8px 0px #dddddd, 0px 0px 8px 0px #dddddd;
+    transform: rotate( 
+3deg);
+    position: relative;
+    top: 5%;
+}
+.circProj1{
+    position: relative;
+    background-color: darkblue;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    bottom: 18%;
+    left: 5%;
+    box-shadow: 0px 0px 0px 4px #dddddd;
+}
+.circProj2{
+    position: relative;
+    background-color: darkblue;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    bottom: 32%;
+    right: 101%;
+    box-shadow: 0px 0px 0px 4px #dddddd;
+}
+#projectNumber{
+    font-size: 20px;
+    color: darkblue;
+    position: relative;
+    bottom: 15%;
+    font-family: 'Font Awesome 5 Pro';
+}
+.orgProjectDivWindows1{
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+    text-align: center;
+    width: 95%;
+    height: 70%;
+    padding: 15px;
+    box-shadow: 0px 0px 8px 0px #dddddd, 0px 0px 8px 0px #dddddd;
+}
+#privProjectNumber{
+    font-size: 20px;
+    color: darkblue;
+    position: relative;
+    bottom: 15%;
+    font-family: 'Font Awesome 5 Pro';
+}
+.circProj3{
+    position: relative;
+    background-color: darkblue;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    bottom: 18%;
+    left: 5%;
+    box-shadow: 0px 0px 0px 4px #dddddd;
+}
+.circProj4{
+    position: relative;
+    background-color: darkblue;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    bottom: 32%;
+    right: 101%;
+    box-shadow: 0px 0px 0px 4px #dddddd;
+}
+.orgProjectDivWindows2{
+    /* cursor: url('../NimaTjk/Assets/Img/circle-and-cursor-arrow.png'); */
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+    text-align: center;
+    width: 95%;
+    height: 70%;
+    padding: 15px;
+    box-shadow: 0px 0px 8px 0px #dddddd, 0px 0px 8px 0px #dddddd;
+    transform: rotate(
+-3deg);
+    position: relative;
+    top: 5%;
+}
+#miniProjectNumber{
+    font-size: 20px;
+    color: darkblue;
+    position: relative;
+    bottom: 15%;
+    font-family: 'Font Awesome 5 Pro';
+}
+.circProj5{
+    position: relative;
+    background-color: darkblue;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    bottom: 18%;
+    left: 5%;
+    box-shadow: 0px 0px 0px 4px #dddddd;
+}
+.circProj6{
+    position: relative;
+    background-color: darkblue;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    bottom: 32%;
+    right: 101%;
+    box-shadow: 0px 0px 0px 4px #dddddd;
+}
+
+.projDivNav2{
+    position: relative;
+    display: inline-block;
+    right: 49%;
+    bottom: 470px;
+    width: 100%;
+}
+#windowsDisplayNone{
+    display: none;
+}
+.porojOneWindows1 img{
+    width: 140px;
+    height: 140px;
+}
+.porojOneWindows img{
+    width: 140px;
+    height: 140px;
+}
+#windosProjeDis{
+    display: none;
+}
+.boxshdiw{
+    box-shadow: 0px 0px 5px 0px rgb(214, 214, 214);
+    padding: 30px;
+    border-radius: 5px;
+}
+.boxshdiw a{
+    text-decoration: none !important;
+    color: black;
+}
+.boxshdiw a:hover{
+    text-decoration: none !important;
+    color: black;
+    
+}
+.boxshdiw:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+.projeTitleWindows{
+    color: indigo;
+    text-align: center;
+}
+/* .myIntrodus p{
+    font-family: cursive;
+}
+.myIntrodus h4{
+    font-family: cursive;
+} */
 }

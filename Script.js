@@ -33,6 +33,7 @@ var startPage = setInterval(function () {
     doc.getElementById("firstDisplayMode").style.display = "inline-block";
     doc.getElementById("firstDisplayMode1").style.display = "block";
     doc.getElementById("firstDisplayMode2").style.display = "block";
+    doc.querySelector('#windowsDisplayNone').classList.add('MediaPhone');
 }, 5500);
 
 var deletLoading = setInterval(function () {
@@ -179,41 +180,8 @@ var projes = doc.getElementById('miniProjeClick').addEventListener("click", func
     event.preventDefault();
 })
 
-// document.onmousemove = animateCircle;
-
-// function animateCircle(event) {
-//   var circle = document.createElement('div')
-//   // console.log(circle)
-//   var colors = ["#f00", "#6cf", "#0f0", "#00f"]
-//   circle.setAttribute('class', 'circle')
-
-//   // console.log(event)
-
-//   circle.style.left = event.clientX + "px"
-//   circle.style.top = event.clientY + "px"
-//   circle.style.transition = "all 0.5s linear"
-
-//   document.body.appendChild(circle)
-
-//   circle.style.left = circle.offsetLeft - 20 + "px"
-//   circle.style.top = circle.offsetTop - 20 + "px"
-
-//   var mainColor = colors[Math.floor(Math.random() * colors.length)]
-
-//   circle.style.borderColor = mainColor
-//   circle.style.width = "50px"
-//   circle.style.height = "50px"
-//   circle.style.borderWidth = "5px"
-//   circle.style.opacity = 0
-
-// }
-
-
-
 
 // Wed Loading
-
-
 var bar2 = ldBar("#myItem2");
 // var bar6 = document.getElementById('myItem2').ldBar;
 var timeLoad1 = setInterval(function () {
@@ -225,7 +193,10 @@ var startPage1 = setTimeout(function () {
     boduchangeBack.classList.replace('windosBodyPic' , 'windosBodyPic2');
     // doc.querySelector('#myItem2').style.display = 'none';
     doc.querySelector('#windowsDisplayNone').classList.add('MediaPhone');
+    // doc.querySelector('#windowsDisplayNone').style.display = 'block';
     doc.querySelector('#dipslaWindosIntrodus').style.display = 'block';
+    // doc.querySelector('#windowsDisplayNone').style.display = 'block';
+    // doc.querySelector('#windowsDisplayNone').style.display = 'block';
 
 }, 4000);
 // // clearTimeout('startPage1');

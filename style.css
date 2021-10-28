@@ -2,6 +2,7 @@
     display: none;
 }
 *{
+    user-select: none;
     font-family:'Vazir-FD';
 }
 @font-face {
@@ -23,6 +24,24 @@
   
     40%, 60% {
       transform: translate3d(4px, 0, 0);
+    }
+  }
+
+  @keyframes shakeWeb {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(1px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-1px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(1px, 0, 0);
     }
   }
   .navBtnWindows i:hover{
@@ -862,9 +881,6 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width:1199px) {
-    .navBtnWindows:hover{
-        animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-      }
     #windowsDisplayNone{
         display: block ;
     }
@@ -1206,60 +1222,6 @@
         /* border-left: 2px solid; */
         height: 25px;
 }
-.aftertow::before{
-    content: '';
-    position: absolute;
-    width: 0.5%;
-    height: 2px;
-    background-color: royalblue;
-    top: 6.8%;
-    right: 35.5%;
-}
-.aftertow::after{
-    content: '';
-    position: absolute;
-    width: 0.5%;
-    height: 2px;
-    background-color: royalblue;
-    top: 6.8%;
-    right: 42.2%;
-}
-.afterthree::before{
-    content: '';
-    position: absolute;
-    width: 1.5%;
-    height: 2px;
-    background-color: royalblue;
-    top: 6.1%;
-    right: 41.75%;
-}
-.afterthree::after{
-    content: '';
-    position: absolute;
-    width: 0.5%;
-    height: 2px;
-    background-color: royalblue;
-    top: 5.4%;
-    right: 42.21%;
-}
-.afterone::before{
-    content: '';
-    position: absolute;
-    width: 1.5%;
-    height: 2px;
-    background-color: royalblue;
-    top: 6.1%;
-    right: 35%;
-}
-.afterone::after{
-    content: '';
-    position: absolute;
-    width: 0.5%;
-    height: 2px;
-    background-color: royalblue;
-    top: 5.4%;
-    right: 35.5%;
-}
 .orgProjectDivWindows{
     background-color: white;
     color: black;
@@ -1433,9 +1395,6 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .navBtnWindows:hover{
-        animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-      }
     /* .windowsDisplayNone{
         display: none;
     } */

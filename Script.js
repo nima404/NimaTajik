@@ -23,9 +23,9 @@ function closeIcon() {
 }
 
 var bar1 = ldBar("#myItem1");
-// var bar2 = document.getElementById('myItem1').ldBar;
+var bar2 = document.getElementById('myItem1').ldBar;
 var timeLoad = setInterval(function () {
-    // doc.querySelector('#myItem2').style.display = 'none';
+    doc.querySelector('#myItem2').style.display = 'none';
     set(100);
 }, 4500);
 
@@ -34,7 +34,7 @@ var startPage = setInterval(function () {
     doc.getElementById("firstDisplayMode1").style.display = "block";
     doc.getElementById("firstDisplayMode2").style.display = "block";
     doc.querySelector('#windowsDisplayNone').classList.add('MediaPhone');
-}, 5500);
+}, 4800);
 
 var deletLoading = setInterval(function () {
     doc.getElementById("myItem1").style.display = 'none';
@@ -193,6 +193,7 @@ var startPage1 = setTimeout(function () {
     boduchangeBack.classList.replace('windosBodyPic' , 'windosBodyPic2');
     // doc.querySelector('#myItem2').style.display = 'none';
     doc.querySelector('#windowsDisplayNone').classList.add('MediaPhone');
+    doc.querySelector('#sidebar-wrapper').style.display = 'block';
     // doc.querySelector('#windowsDisplayNone').style.display = 'block';
     doc.querySelector('#dipslaWindosIntrodus').style.display = 'block';
     // doc.querySelector('#windowsDisplayNone').style.display = 'block';
